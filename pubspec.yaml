@@ -1,7 +1,6 @@
 name: flutter_custom_cards
 description: New Flutter package which helps developers to create beautiful custom cards.
-version: 0.0.1
-author: Pradeep Tintali <4gpradeep@gmiail.com>
+version: 0.0.2
 homepage: https://github.com/pktintali/
 repository: https://github.com/pktintali/flutter_custom_cards
 environment:

@@ -6,8 +6,12 @@ class CustomCards extends StatefulWidget {
   final Color textColor;
   final key;
   final double fontSize;
+  final double childPadding;
+  final double elevation;
   CustomCards(
-      {this.text,
+      {@required this.text,
+      this.elevation=3,
+      this.childPadding = 5,
       this.color = Colors.white,
       this.textColor = Colors.black,
       this.fontSize = 18.0,
@@ -20,13 +24,17 @@ class _CustomCardsState extends State<CustomCards> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      elevation: widget.elevation,
       key: widget.key,
       color: widget.color,
-      child: Text(
-        widget.text,
-        style: TextStyle(
-          color: widget.textColor,
-          fontSize: widget.fontSize,
+      child: Padding(
+        padding: EdgeInsets.all(widget.childPadding),
+        child: Text(
+          widget.text,
+          style: TextStyle(
+            color: widget.textColor,
+            fontSize: widget.fontSize,
+          ),
         ),
       ),
     );
