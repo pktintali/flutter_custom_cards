@@ -2,6 +2,10 @@
 
 New Flutter package which helps developers to create beautiful custom cards.
 
+### ScreenShots
+
+<img src="https://raw.githubusercontent.com/pktintali/flutter_custom_cards/main/example/screenshots/image1.jpg" width="400">
+
 ## Getting Started
 
 To import the widget:
@@ -9,10 +13,6 @@ To import the widget:
 ```dart
 import 'package:flutter_custom_cards/flutter_custom_card.dart'
 ```
-
-### ScreenShots
-
-<img src="https://raw.githubusercontent.com/pktintali/flutter_custom_cards/main/example/screenshots/image1.jpg" width="400">
 
 Make a widget _Card_:
 
