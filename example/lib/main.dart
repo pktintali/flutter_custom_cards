@@ -9,7 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter_Custom_Cards Demo',
+      // title: 'Flutter_Custom_Cards Demo',
+      title: 'Custom Card Example',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -19,17 +21,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class CustomCardsExample extends StatefulWidget {
-  @override
-  _CustomCardsExampleState createState() => _CustomCardsExampleState();
-}
-
-class _CustomCardsExampleState extends State<CustomCardsExample> {
+class CustomCardsExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter_Custom_Cards Example'),
+        centerTitle: true,
+        title: Text(
+          // 'Flutter_Custom_Cards Example',
+          'Custom Card Example',
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -98,17 +99,16 @@ class _CustomCardsExampleState extends State<CustomCardsExample> {
             SizedBox(
               height: 20,
             ),
-            Text('WidgetCards'),
+            Text('Widget Card'),
             WidgetCard(
-              //WidgetCard Example
-              widgetPadding: 20,
               widget: Column(
                 children: [
-                  Text('Card with custom widget'),
-                  Icon(
-                    Icons.favorite_outline,
-                    color: Colors.red,
-                    size: 30,
+                  Image.network(
+                      'https://miro.medium.com/max/85/1*ilC2Aqp5sZd1wi0CopD1Hw.png'),
+                  Text('Widget Card Example'),
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: Text('Button'),
                   ),
                 ],
               ),

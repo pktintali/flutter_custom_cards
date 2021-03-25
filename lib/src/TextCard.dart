@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 ///[TextCard] that display text inside a card
 class TextCard extends StatefulWidget {
-  /// [String] that display text on scree
+  /// [String] that display text on screen
   final String text;
 
   ///Background [Color] for card
@@ -12,7 +12,7 @@ class TextCard extends StatefulWidget {
   final Color textColor;
 
   ///key
-  final key;
+  final Key? key;
 
   ///[fontSize] of the [Text]
   final double fontSize;
@@ -26,7 +26,7 @@ class TextCard extends StatefulWidget {
   ///[elevation] for card
   final double elevation;
   TextCard(
-      {@required this.text,
+      {required this.text,
       this.elevation = 3,
       this.shadowColor = Colors.black,
       this.childPadding = 5,

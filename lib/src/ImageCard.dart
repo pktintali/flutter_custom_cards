@@ -11,7 +11,7 @@ class ImageCard extends StatefulWidget {
   final Color shadowColor;
 
   //key
-  final key;
+  final Key? key;
 
   //padding for the child
   final double childPadding;
@@ -19,7 +19,7 @@ class ImageCard extends StatefulWidget {
   ///[elevation] for card
   final double elevation;
   ImageCard(
-      {@required this.image,
+      {required this.image,
       this.elevation = 3,
       this.shadowColor = Colors.black,
       this.childPadding = 5,

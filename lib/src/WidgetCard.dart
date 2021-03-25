@@ -16,7 +16,7 @@ class WidgetCard extends StatefulWidget {
   ///[elevation] for card
   final double elevation;
   WidgetCard(
-      {@required this.widget,
+      {required this.widget,
       this.elevation = 3,
       this.widgetPadding = 5,
       this.color = Colors.white,
