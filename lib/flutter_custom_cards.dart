@@ -1,5 +1,4 @@
 library flutter_custom_cards;
 
-export 'src/TextCard.dart';
-export 'src/ImageCard.dart';
-export 'src/WidgetCard.dart';
+export 'src/custom_card.dart';
+export 'src/custom_3d_card.dart';
