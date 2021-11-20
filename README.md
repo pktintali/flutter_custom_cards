@@ -107,11 +107,6 @@ The following features will rollout soon
 ## License
 This project is licensed under the MIT license. See [LICENSE](https://github.com/pktintali/flutter_custom_cards/blob/main/LICENSE) for details.
 
-<br/>
-
-<br/>
-
-<br/>
 
 <p align="center">
   <img alt = "Counter" src="https://profile-counter.glitch.me/flutter_custom_cards/count.svg"/>
