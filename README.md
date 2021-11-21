@@ -82,6 +82,7 @@ The following options are available on `CustomCard`
 
 ## Custom3DCard Options
 The following options are available on `Custom3DCard`
+
 | Property      | Type | Description |
 | --------------| --------- |--------------|
 | borderOnForeground   | bool        |If false, the border will be painted behind the child (default true)
