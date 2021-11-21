@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.1] - 21/11/2021
+
+- Readme Docs Updated
+
 ## [0.2.0] - 20/11/2021
 
 This is a big update (major changes)

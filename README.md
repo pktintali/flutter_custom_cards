@@ -15,7 +15,7 @@ Flutter Custom Cards help developers to create beautiful custom cards and 3D car
 Add the package In your pubspec.yaml
 
 ```yaml
-flutter_custom_cards: ^0.2.0
+flutter_custom_cards: ^0.2.1
 ```
 
 Import and use
